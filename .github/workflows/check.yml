@@ -15,9 +15,9 @@ jobs:
       matrix:
         include:
           - model: "SM-P613"
-            region: "ATO"
+            region: "PHE"
           - model: "SM-P619"
-            region: "ATO"
+            region: "PHE"
 
     steps:
     - name: Checkout repo
